@@ -7,12 +7,12 @@ const img = document.createElement("div");
 img.classList.add("image");
 
 const main = document.getElementsByClassName("main");
-main.appendChild(img);
+main[0].appendChild(img);
 
 const image = document.createElement("img");
 image[0].setAttribute("src", "image");
 const image2 = document.getElementsByClassName("image");
-main.appendChild(image2);
+main[0].appendChild(image2);
 image.resize(200, 200);
 
 
