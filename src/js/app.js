@@ -6,12 +6,12 @@ window.addEventListener("DOMContentLoaded", () => {
 const img = document.createElement("div");
 img.classList.add("image");
 
-const main = document.getElementsByClass("main");
+const main = document.getElementsByClassName("main");
 main.appendChild(img);
 
 const image = document.createElement("img");
 image[0].setAttribute("src", "image");
-const image2 = document.getElementsByClass("image");
+const image2 = document.getElementsByClassName("image");
 main.appendChild(image2);
 image.resize(200, 200);
 
