@@ -13,7 +13,7 @@ const image = document.createElement("img");
 image[0].setAttribute("src", "image");
 const image2 = document.getElementsByClass("image");
 main.appendChild(image2);
-
+image.resize(200, 200);
 
 
   const button = document.querySelector(".button");
